@@ -1,7 +1,7 @@
 import os
 
 
-def ssh(wrdList, Host)
+def ssh(wrdList, Host):
       os.system('hydra -L ' + wrdList + ' -P ' + wrdList + ' ' + Host + ' ssh')
 
 
